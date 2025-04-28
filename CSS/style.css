@@ -131,3 +131,60 @@ header .logo i {
         text-align: center;
     }
 }
+.option {
+    padding: 30px 0;
+    background-color: var(--white-color);
+}
+.option .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.option .box {
+    display: flex;
+    align-items: center;
+}
+.option .two {
+    flex-direction: row-reverse;
+}
+.option .box:not(:last-child) {
+    margin-bottom: 40px;
+}
+.option .box .image {
+    width: 120px;
+}
+.option .image img {
+    width: 100%;
+}
+.option .box h3 {
+    font-size: 60px;
+    position: relative;
+    color: var(--black-color);
+    z-index: 2;
+}
+.option .box:not(:nth-child(2)) h3 {
+    margin-left: 30px;
+}
+.option .two h3 {
+    margin-right: 30px;
+}
+.option .box h3::after {
+    position: absolute;
+    top: -70px;
+    left: -20px;
+    font-size: 120px;
+    color: var(--main-color);
+    font-weight: bold;
+    opacity: 0.4;
+    z-index: -1;
+}
+.option .one h3::after {
+    content: "1";
+}
+.option .two h3::after {
+    content: "2";
+}
+.option .three h3::after {
+    content: "3";
+}
