@@ -176,7 +176,7 @@ header .logo i {
     font-size: 120px;
     color: var(--main-color);
     font-weight: bold;
-    opacity: 0.3;
+    opacity: 0.4;
     z-index: -1;
 }
 .option .one h3::after {
@@ -187,4 +187,16 @@ header .logo i {
 }
 .option .three h3::after {
     content: "3";
+}
+footer {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 20px;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    color: var(--main-color);
 }
