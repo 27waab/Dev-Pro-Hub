@@ -103,6 +103,7 @@ body {
     cursor: pointer;
     color: var(--dark-gray);
     font-weight: 500;
+    transition: var(--main-transition);
 }
 .container .catogrey span.check {
     color: var(--main-color);
