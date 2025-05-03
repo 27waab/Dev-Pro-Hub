@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .btn-shape {
     border: none;
@@ -112,4 +113,15 @@ body {
     .container {
         width: 325px;
     }
+}
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Poppins", sans-serif;
+    color: var(--dark-gray);
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
 }
