@@ -68,47 +68,25 @@ body {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.container .login .name label i {
+    color: var(--black-color);
+    font-size: 22px;
+    margin-left: 5px;
 }
 .container .login .name input {
     width: 100%;
-    border: 1px solid var(--light-gray);
-    padding: 5px 10px;
+    border: 1px solid #eee;
+    padding: 10px;
     border-radius: 8px;
     transition: var(--main-transition);
     outline: none;
+    margin-bottom: 20px;
 }
 .container .login .name input:focus {
     border-color: var(--main-color);
-}
-.container h3 {
-    margin-top: 20px;
-    color: var(--black-color);
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.container .catogrey {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
-    gap: 10px;
-    margin-bottom: 20px;
-}
-.container .catogrey span {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px solid var(--light-gray);
-    min-height: 30px;
-    border-radius: 8px;
-    cursor: pointer;
-    color: var(--dark-gray);
-    font-weight: 500;
-    transition: var(--main-transition);
-}
-.container .catogrey span.check {
-    color: var(--main-color);
-    background-color: #007bff16;
-    border: 1px solid var(--main-color);
 }
 @media (max-width: 767px) {
     .container {
@@ -120,7 +98,6 @@ body {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    font-family: "Poppins", sans-serif;
     color: var(--dark-gray);
     font-size: 14px;
     width: 100%;
