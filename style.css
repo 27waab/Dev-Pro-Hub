@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    user-select: none;
+}
+.start {
+    width: 325px;
+}
+.card-log {
+    display: none;
+}
+.card-log.open {
+    display: block;
+}
+.card-sing {
+    display: none;
+}
+.card-sing.open {
+    display: block;
+}
